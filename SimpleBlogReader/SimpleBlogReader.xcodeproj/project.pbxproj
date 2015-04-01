@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED5A89B1198AF67C004EF4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89B0198AF67C004EF4E5 /* Foundation.framework */; };
+		ED5A89B3198AF67C004EF4E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89B2198AF67C004EF4E5 /* CoreGraphics.framework */; };
+		ED5A89B5198AF67C004EF4E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89B4198AF67C004EF4E5 /* UIKit.framework */; };
+		ED5A89BB198AF67C004EF4E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED5A89B9198AF67C004EF4E5 /* InfoPlist.strings */; };
+		ED5A89BD198AF67C004EF4E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A89BC198AF67C004EF4E5 /* main.m */; };
+		ED5A89C1198AF67C004EF4E5 /* KPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A89C0198AF67C004EF4E5 /* KPAppDelegate.m */; };
+		ED5A89C4198AF67C004EF4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5A89C2198AF67C004EF4E5 /* Main.storyboard */; };
+		ED5A89C7198AF67C004EF4E5 /* KPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A89C6198AF67C004EF4E5 /* KPMasterViewController.m */; };
+		ED5A89CA198AF67C004EF4E5 /* KPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A89C9198AF67C004EF4E5 /* KPDetailViewController.m */; };
+		ED5A89CC198AF67C004EF4E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5A89CB198AF67C004EF4E5 /* Images.xcassets */; };
+		ED5A89D3198AF67D004EF4E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89D2198AF67D004EF4E5 /* XCTest.framework */; };
+		ED5A89D4198AF67D004EF4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89B0198AF67C004EF4E5 /* Foundation.framework */; };
+		ED5A89D5198AF67D004EF4E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A89B4198AF67C004EF4E5 /* UIKit.framework */; };
+		ED5A89DD198AF67D004EF4E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED5A89DB198AF67D004EF4E5 /* InfoPlist.strings */; };
+		ED5A89DF198AF67D004EF4E5 /* SimpleBlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5A89DE198AF67D004EF4E5 /* SimpleBlogReaderTests.m */; };
+		ED7B04D11992ED4700FABC11 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7B04D01992ED4700FABC11 /* treehouse.png */; };
+		EDE1BF581992DF8F0059D143 /* KPBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE1BF571992DF8F0059D143 /* KPBlogPost.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5A89D6198AF67D004EF4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5A89A5198AF67C004EF4E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5A89AC198AF67C004EF4E5;
+			remoteInfo = SimpleBlogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5A89AD198AF67C004EF4E5 /* SimpleBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5A89B0198AF67C004EF4E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED5A89B2198AF67C004EF4E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		ED5A89B4198AF67C004EF4E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED5A89B8198AF67C004EF4E5 /* SimpleBlogReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBlogReader-Info.plist"; sourceTree = "<group>"; };
+		ED5A89BA198AF67C004EF4E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED5A89BC198AF67C004EF4E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED5A89BE198AF67C004EF4E5 /* SimpleBlogReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleBlogReader-Prefix.pch"; sourceTree = "<group>"; };
+		ED5A89BF198AF67C004EF4E5 /* KPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAppDelegate.h; sourceTree = "<group>"; };
+		ED5A89C0198AF67C004EF4E5 /* KPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAppDelegate.m; sourceTree = "<group>"; };
+		ED5A89C3198AF67C004EF4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED5A89C5198AF67C004EF4E5 /* KPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPMasterViewController.h; sourceTree = "<group>"; };
+		ED5A89C6198AF67C004EF4E5 /* KPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPMasterViewController.m; sourceTree = "<group>"; };
+		ED5A89C8198AF67C004EF4E5 /* KPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPDetailViewController.h; sourceTree = "<group>"; };
+		ED5A89C9198AF67C004EF4E5 /* KPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPDetailViewController.m; sourceTree = "<group>"; };
+		ED5A89CB198AF67C004EF4E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED5A89D1198AF67D004EF4E5 /* SimpleBlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5A89D2198AF67D004EF4E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED5A89DA198AF67D004EF4E5 /* SimpleBlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBlogReaderTests-Info.plist"; sourceTree = "<group>"; };
+		ED5A89DC198AF67D004EF4E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED5A89DE198AF67D004EF4E5 /* SimpleBlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBlogReaderTests.m; sourceTree = "<group>"; };
+		ED7B04D01992ED4700FABC11 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
+		EDE1BF561992DF8F0059D143 /* KPBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPBlogPost.h; sourceTree = "<group>"; };
+		EDE1BF571992DF8F0059D143 /* KPBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPBlogPost.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5A89AA198AF67C004EF4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A89B3198AF67C004EF4E5 /* CoreGraphics.framework in Frameworks */,
+				ED5A89B5198AF67C004EF4E5 /* UIKit.framework in Frameworks */,
+				ED5A89B1198AF67C004EF4E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5A89CE198AF67D004EF4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A89D3198AF67D004EF4E5 /* XCTest.framework in Frameworks */,
+				ED5A89D5198AF67D004EF4E5 /* UIKit.framework in Frameworks */,
+				ED5A89D4198AF67D004EF4E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5A89A4198AF67C004EF4E5 = {
+			isa = PBXGroup;
+			children = (
+				ED5A89B6198AF67C004EF4E5 /* SimpleBlogReader */,
+				ED5A89D8198AF67D004EF4E5 /* SimpleBlogReaderTests */,
+				ED5A89AF198AF67C004EF4E5 /* Frameworks */,
+				ED5A89AE198AF67C004EF4E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5A89AE198AF67C004EF4E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A89AD198AF67C004EF4E5 /* SimpleBlogReader.app */,
+				ED5A89D1198AF67D004EF4E5 /* SimpleBlogReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5A89AF198AF67C004EF4E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A89B0198AF67C004EF4E5 /* Foundation.framework */,
+				ED5A89B2198AF67C004EF4E5 /* CoreGraphics.framework */,
+				ED5A89B4198AF67C004EF4E5 /* UIKit.framework */,
+				ED5A89D2198AF67D004EF4E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5A89B6198AF67C004EF4E5 /* SimpleBlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A89C2198AF67C004EF4E5 /* Main.storyboard */,
+				ED5A89C5198AF67C004EF4E5 /* KPMasterViewController.h */,
+				ED5A89C6198AF67C004EF4E5 /* KPMasterViewController.m */,
+				ED5A89C8198AF67C004EF4E5 /* KPDetailViewController.h */,
+				ED5A89C9198AF67C004EF4E5 /* KPDetailViewController.m */,
+				EDE1BF561992DF8F0059D143 /* KPBlogPost.h */,
+				EDE1BF571992DF8F0059D143 /* KPBlogPost.m */,
+				ED5A89CB198AF67C004EF4E5 /* Images.xcassets */,
+				ED5A89B7198AF67C004EF4E5 /* Supporting Files */,
+			);
+			path = SimpleBlogReader;
+			sourceTree = "<group>";
+		};
+		ED5A89B7198AF67C004EF4E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7B04D01992ED4700FABC11 /* treehouse.png */,
+				ED5A89BF198AF67C004EF4E5 /* KPAppDelegate.h */,
+				ED5A89C0198AF67C004EF4E5 /* KPAppDelegate.m */,
+				ED5A89B8198AF67C004EF4E5 /* SimpleBlogReader-Info.plist */,
+				ED5A89B9198AF67C004EF4E5 /* InfoPlist.strings */,
+				ED5A89BC198AF67C004EF4E5 /* main.m */,
+				ED5A89BE198AF67C004EF4E5 /* SimpleBlogReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED5A89D8198AF67D004EF4E5 /* SimpleBlogReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A89DE198AF67D004EF4E5 /* SimpleBlogReaderTests.m */,
+				ED5A89D9198AF67D004EF4E5 /* Supporting Files */,
+			);
+			path = SimpleBlogReaderTests;
+			sourceTree = "<group>";
+		};
+		ED5A89D9198AF67D004EF4E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED5A89DA198AF67D004EF4E5 /* SimpleBlogReaderTests-Info.plist */,
+				ED5A89DB198AF67D004EF4E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5A89AC198AF67C004EF4E5 /* SimpleBlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5A89E2198AF67D004EF4E5 /* Build configuration list for PBXNativeTarget "SimpleBlogReader" */;
+			buildPhases = (
+				ED5A89A9198AF67C004EF4E5 /* Sources */,
+				ED5A89AA198AF67C004EF4E5 /* Frameworks */,
+				ED5A89AB198AF67C004EF4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBlogReader;
+			productName = SimpleBlogReader;
+			productReference = ED5A89AD198AF67C004EF4E5 /* SimpleBlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5A89D0198AF67D004EF4E5 /* SimpleBlogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5A89E5198AF67D004EF4E5 /* Build configuration list for PBXNativeTarget "SimpleBlogReaderTests" */;
+			buildPhases = (
+				ED5A89CD198AF67D004EF4E5 /* Sources */,
+				ED5A89CE198AF67D004EF4E5 /* Frameworks */,
+				ED5A89CF198AF67D004EF4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5A89D7198AF67D004EF4E5 /* PBXTargetDependency */,
+			);
+			name = SimpleBlogReaderTests;
+			productName = SimpleBlogReaderTests;
+			productReference = ED5A89D1198AF67D004EF4E5 /* SimpleBlogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5A89A5198AF67C004EF4E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kirill Pahnev";
+				TargetAttributes = {
+					ED5A89D0198AF67D004EF4E5 = {
+						TestTargetID = ED5A89AC198AF67C004EF4E5;
+					};
+				};
+			};
+			buildConfigurationList = ED5A89A8198AF67C004EF4E5 /* Build configuration list for PBXProject "SimpleBlogReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED5A89A4198AF67C004EF4E5;
+			productRefGroup = ED5A89AE198AF67C004EF4E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5A89AC198AF67C004EF4E5 /* SimpleBlogReader */,
+				ED5A89D0198AF67D004EF4E5 /* SimpleBlogReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5A89AB198AF67C004EF4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7B04D11992ED4700FABC11 /* treehouse.png in Resources */,
+				ED5A89CC198AF67C004EF4E5 /* Images.xcassets in Resources */,
+				ED5A89BB198AF67C004EF4E5 /* InfoPlist.strings in Resources */,
+				ED5A89C4198AF67C004EF4E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5A89CF198AF67D004EF4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A89DD198AF67D004EF4E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5A89A9198AF67C004EF4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A89CA198AF67C004EF4E5 /* KPDetailViewController.m in Sources */,
+				EDE1BF581992DF8F0059D143 /* KPBlogPost.m in Sources */,
+				ED5A89BD198AF67C004EF4E5 /* main.m in Sources */,
+				ED5A89C7198AF67C004EF4E5 /* KPMasterViewController.m in Sources */,
+				ED5A89C1198AF67C004EF4E5 /* KPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5A89CD198AF67D004EF4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5A89DF198AF67D004EF4E5 /* SimpleBlogReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5A89D7198AF67D004EF4E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5A89AC198AF67C004EF4E5 /* SimpleBlogReader */;
+			targetProxy = ED5A89D6198AF67D004EF4E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED5A89B9198AF67C004EF4E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5A89BA198AF67C004EF4E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED5A89C2198AF67C004EF4E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5A89C3198AF67C004EF4E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5A89DB198AF67D004EF4E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5A89DC198AF67D004EF4E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5A89E0198AF67D004EF4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED5A89E1198AF67D004EF4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5A89E3198AF67D004EF4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBlogReader/SimpleBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBlogReader/SimpleBlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED5A89E4198AF67D004EF4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBlogReader/SimpleBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBlogReader/SimpleBlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED5A89E6198AF67D004EF4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleBlogReader.app/SimpleBlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBlogReader/SimpleBlogReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleBlogReaderTests/SimpleBlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED5A89E7198AF67D004EF4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleBlogReader.app/SimpleBlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBlogReader/SimpleBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBlogReaderTests/SimpleBlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5A89A8198AF67C004EF4E5 /* Build configuration list for PBXProject "SimpleBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5A89E0198AF67D004EF4E5 /* Debug */,
+				ED5A89E1198AF67D004EF4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5A89E2198AF67D004EF4E5 /* Build configuration list for PBXNativeTarget "SimpleBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5A89E3198AF67D004EF4E5 /* Debug */,
+				ED5A89E4198AF67D004EF4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5A89E5198AF67D004EF4E5 /* Build configuration list for PBXNativeTarget "SimpleBlogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5A89E6198AF67D004EF4E5 /* Debug */,
+				ED5A89E7198AF67D004EF4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5A89A5198AF67C004EF4E5 /* Project object */;
+}

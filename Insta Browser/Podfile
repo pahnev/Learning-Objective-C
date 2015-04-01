@@ -1,0 +1,1 @@
+pod 'SimpleAuth/Instagram'

@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85095DF6502F44AAABAA7D57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBB8DD7038D4EC1BADAFEE1 /* libPods.a */; };
+		AC13B8D419A426FF002566DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8D319A426FF002566DF /* Foundation.framework */; };
+		AC13B8D619A426FF002566DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8D519A426FF002566DF /* CoreGraphics.framework */; };
+		AC13B8D819A426FF002566DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8D719A426FF002566DF /* UIKit.framework */; };
+		AC13B8DE19A426FF002566DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC13B8DC19A426FF002566DF /* InfoPlist.strings */; };
+		AC13B8E019A426FF002566DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13B8DF19A426FF002566DF /* main.m */; };
+		AC13B8E419A426FF002566DF /* KPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13B8E319A426FF002566DF /* KPAppDelegate.m */; };
+		AC13B8E619A426FF002566DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC13B8E519A426FF002566DF /* Images.xcassets */; };
+		AC13B8ED19A426FF002566DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8EC19A426FF002566DF /* XCTest.framework */; };
+		AC13B8EE19A426FF002566DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8D319A426FF002566DF /* Foundation.framework */; };
+		AC13B8EF19A426FF002566DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13B8D719A426FF002566DF /* UIKit.framework */; };
+		AC13B8F719A426FF002566DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC13B8F519A426FF002566DF /* InfoPlist.strings */; };
+		AC13B8F919A426FF002566DF /* Insta_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13B8F819A426FF002566DF /* Insta_BrowserTests.m */; };
+		AC13B90719A42825002566DF /* KPPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13B90619A42825002566DF /* KPPhotosViewController.m */; };
+		AC13B90A19A42BB9002566DF /* KPPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13B90919A42BB9002566DF /* KPPhotoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC13B8F019A426FF002566DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC13B8C819A426FF002566DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC13B8CF19A426FF002566DF;
+			remoteInfo = "Insta Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBB8DD7038D4EC1BADAFEE1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA82EB3563ED488EB85BA615 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AC13B8D019A426FF002566DF /* Insta Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC13B8D319A426FF002566DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC13B8D519A426FF002566DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC13B8D719A426FF002566DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC13B8DB19A426FF002566DF /* Insta Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Insta Browser-Info.plist"; sourceTree = "<group>"; };
+		AC13B8DD19A426FF002566DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC13B8DF19A426FF002566DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC13B8E119A426FF002566DF /* Insta Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Insta Browser-Prefix.pch"; sourceTree = "<group>"; };
+		AC13B8E219A426FF002566DF /* KPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAppDelegate.h; sourceTree = "<group>"; };
+		AC13B8E319A426FF002566DF /* KPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAppDelegate.m; sourceTree = "<group>"; };
+		AC13B8E519A426FF002566DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC13B8EB19A426FF002566DF /* Insta BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC13B8EC19A426FF002566DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC13B8F419A426FF002566DF /* Insta BrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Insta BrowserTests-Info.plist"; sourceTree = "<group>"; };
+		AC13B8F619A426FF002566DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC13B8F819A426FF002566DF /* Insta_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Insta_BrowserTests.m; sourceTree = "<group>"; };
+		AC13B90519A42825002566DF /* KPPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPhotosViewController.h; sourceTree = "<group>"; };
+		AC13B90619A42825002566DF /* KPPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPhotosViewController.m; sourceTree = "<group>"; };
+		AC13B90819A42BB9002566DF /* KPPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPhotoCell.h; sourceTree = "<group>"; };
+		AC13B90919A42BB9002566DF /* KPPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPhotoCell.m; sourceTree = "<group>"; };
+		AC13B90B19A430FF002566DF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC13B8CD19A426FF002566DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8D619A426FF002566DF /* CoreGraphics.framework in Frameworks */,
+				AC13B8D819A426FF002566DF /* UIKit.framework in Frameworks */,
+				AC13B8D419A426FF002566DF /* Foundation.framework in Frameworks */,
+				85095DF6502F44AAABAA7D57 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC13B8E819A426FF002566DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8ED19A426FF002566DF /* XCTest.framework in Frameworks */,
+				AC13B8EF19A426FF002566DF /* UIKit.framework in Frameworks */,
+				AC13B8EE19A426FF002566DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC13B8C719A426FF002566DF = {
+			isa = PBXGroup;
+			children = (
+				AC13B90B19A430FF002566DF /* Podfile */,
+				AC13B8D919A426FF002566DF /* Insta Browser */,
+				AC13B8F219A426FF002566DF /* Insta BrowserTests */,
+				AC13B8D219A426FF002566DF /* Frameworks */,
+				AC13B8D119A426FF002566DF /* Products */,
+				AA82EB3563ED488EB85BA615 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AC13B8D119A426FF002566DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8D019A426FF002566DF /* Insta Browser.app */,
+				AC13B8EB19A426FF002566DF /* Insta BrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC13B8D219A426FF002566DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8D319A426FF002566DF /* Foundation.framework */,
+				AC13B8D519A426FF002566DF /* CoreGraphics.framework */,
+				AC13B8D719A426FF002566DF /* UIKit.framework */,
+				AC13B8EC19A426FF002566DF /* XCTest.framework */,
+				3CBB8DD7038D4EC1BADAFEE1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC13B8D919A426FF002566DF /* Insta Browser */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8E219A426FF002566DF /* KPAppDelegate.h */,
+				AC13B8E319A426FF002566DF /* KPAppDelegate.m */,
+				AC13B90519A42825002566DF /* KPPhotosViewController.h */,
+				AC13B90619A42825002566DF /* KPPhotosViewController.m */,
+				AC13B90819A42BB9002566DF /* KPPhotoCell.h */,
+				AC13B90919A42BB9002566DF /* KPPhotoCell.m */,
+				AC13B8E519A426FF002566DF /* Images.xcassets */,
+				AC13B8DA19A426FF002566DF /* Supporting Files */,
+			);
+			path = "Insta Browser";
+			sourceTree = "<group>";
+		};
+		AC13B8DA19A426FF002566DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8DB19A426FF002566DF /* Insta Browser-Info.plist */,
+				AC13B8DC19A426FF002566DF /* InfoPlist.strings */,
+				AC13B8DF19A426FF002566DF /* main.m */,
+				AC13B8E119A426FF002566DF /* Insta Browser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC13B8F219A426FF002566DF /* Insta BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8F819A426FF002566DF /* Insta_BrowserTests.m */,
+				AC13B8F319A426FF002566DF /* Supporting Files */,
+			);
+			path = "Insta BrowserTests";
+			sourceTree = "<group>";
+		};
+		AC13B8F319A426FF002566DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC13B8F419A426FF002566DF /* Insta BrowserTests-Info.plist */,
+				AC13B8F519A426FF002566DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC13B8CF19A426FF002566DF /* Insta Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC13B8FC19A426FF002566DF /* Build configuration list for PBXNativeTarget "Insta Browser" */;
+			buildPhases = (
+				931F9707EFF644DA95B04136 /* Check Pods Manifest.lock */,
+				AC13B8CC19A426FF002566DF /* Sources */,
+				AC13B8CD19A426FF002566DF /* Frameworks */,
+				AC13B8CE19A426FF002566DF /* Resources */,
+				C6A3E784A88543C2BC6510CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insta Browser";
+			productName = "Insta Browser";
+			productReference = AC13B8D019A426FF002566DF /* Insta Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC13B8EA19A426FF002566DF /* Insta BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC13B8FF19A426FF002566DF /* Build configuration list for PBXNativeTarget "Insta BrowserTests" */;
+			buildPhases = (
+				AC13B8E719A426FF002566DF /* Sources */,
+				AC13B8E819A426FF002566DF /* Frameworks */,
+				AC13B8E919A426FF002566DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC13B8F119A426FF002566DF /* PBXTargetDependency */,
+			);
+			name = "Insta BrowserTests";
+			productName = "Insta BrowserTests";
+			productReference = AC13B8EB19A426FF002566DF /* Insta BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC13B8C819A426FF002566DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kirill Pahnev";
+				TargetAttributes = {
+					AC13B8EA19A426FF002566DF = {
+						TestTargetID = AC13B8CF19A426FF002566DF;
+					};
+				};
+			};
+			buildConfigurationList = AC13B8CB19A426FF002566DF /* Build configuration list for PBXProject "Insta Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC13B8C719A426FF002566DF;
+			productRefGroup = AC13B8D119A426FF002566DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC13B8CF19A426FF002566DF /* Insta Browser */,
+				AC13B8EA19A426FF002566DF /* Insta BrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC13B8CE19A426FF002566DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8DE19A426FF002566DF /* InfoPlist.strings in Resources */,
+				AC13B8E619A426FF002566DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC13B8E919A426FF002566DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8F719A426FF002566DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		931F9707EFF644DA95B04136 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A3E784A88543C2BC6510CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC13B8CC19A426FF002566DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8E019A426FF002566DF /* main.m in Sources */,
+				AC13B90A19A42BB9002566DF /* KPPhotoCell.m in Sources */,
+				AC13B90719A42825002566DF /* KPPhotosViewController.m in Sources */,
+				AC13B8E419A426FF002566DF /* KPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC13B8E719A426FF002566DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13B8F919A426FF002566DF /* Insta_BrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC13B8F119A426FF002566DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC13B8CF19A426FF002566DF /* Insta Browser */;
+			targetProxy = AC13B8F019A426FF002566DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC13B8DC19A426FF002566DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC13B8DD19A426FF002566DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC13B8F519A426FF002566DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC13B8F619A426FF002566DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC13B8FA19A426FF002566DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC13B8FB19A426FF002566DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC13B8FD19A426FF002566DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA82EB3563ED488EB85BA615 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Browser/Insta Browser-Prefix.pch";
+				INFOPLIST_FILE = "Insta Browser/Insta Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC13B8FE19A426FF002566DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA82EB3563ED488EB85BA615 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Browser/Insta Browser-Prefix.pch";
+				INFOPLIST_FILE = "Insta Browser/Insta Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC13B90019A426FF002566DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Insta Browser.app/Insta Browser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Browser/Insta Browser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Insta BrowserTests/Insta BrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC13B90119A426FF002566DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Insta Browser.app/Insta Browser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Insta Browser/Insta Browser-Prefix.pch";
+				INFOPLIST_FILE = "Insta BrowserTests/Insta BrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC13B8CB19A426FF002566DF /* Build configuration list for PBXProject "Insta Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC13B8FA19A426FF002566DF /* Debug */,
+				AC13B8FB19A426FF002566DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC13B8FC19A426FF002566DF /* Build configuration list for PBXNativeTarget "Insta Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC13B8FD19A426FF002566DF /* Debug */,
+				AC13B8FE19A426FF002566DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC13B8FF19A426FF002566DF /* Build configuration list for PBXNativeTarget "Insta BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC13B90019A426FF002566DF /* Debug */,
+				AC13B90119A426FF002566DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC13B8C819A426FF002566DF /* Project object */;
+}
